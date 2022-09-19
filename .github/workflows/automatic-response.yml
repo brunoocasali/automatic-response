@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - uses: bidoubiwa/automatic-pr-response/welcome@main
+      - uses: bidoubiwa/automatic-pr-response/src/welcome@main
         with:
           github-token: ${{ secrets.AUTOMATIC_RESPONSE }}
           issue-message: "<h1>It's great having you contribute to this project</h1> Feel free to raise an <strong>Issue</strong>! Welcome to the community :nerd_face:"
