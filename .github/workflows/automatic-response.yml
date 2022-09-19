@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@main
       - uses: bidoubiwa/automatic-pr-response/src/welcome@main
         with:
-          github-token: ${{ secrets.AUTOMATIC_2 }}
+          github-token: ${{ secrets.AUTOMATIC_RESPONSE }}
           issue-message: "<h1>It's great having you contribute to this project</h1> Feel free to raise an <strong>Issue</strong>! Welcome to the community :nerd_face:"
           pr-message: "<h1>It's great having you contribute to this project</h1> Feel free to create a <strong>Pull Request</strong>! Welcome to the community :nerd_face:"
